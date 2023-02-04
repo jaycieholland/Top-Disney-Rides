@@ -58,6 +58,12 @@ html {
   padding-right: 3rem;
 }
 
+@media screen and (min-width: 845px) and (max-width: 1299px) {
+  .hero-grid {
+    padding-top: 10rem;
+  }
+}
+
 @media (min-width: 1300px) {
   .hero-grid {
     grid-template-columns: repeat(12, 1fr);
@@ -66,7 +72,7 @@ html {
 }
 
 .hero-content {
-  grid-column: 1 / span 4;
+  grid-column: 1 / span 3;
   grid-row: 1 / span 1;
 }
 
